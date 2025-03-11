@@ -1,3 +1,5 @@
+package main;
+
 import java.util.Scanner;
 
 public class Juego {
@@ -105,7 +107,7 @@ public class Juego {
                 cambiarTurno();
             }
             if (tb.hayAlgo(jugador[turno - 1].getPosicion() + dado).equalsIgnoreCase("D")) {
-                System.out.println("NO A LAS DROGAS, SI AL ALCOHOL. Al principio crack");
+                System.out.println("Al principio crack");
                 jugador[turno - 1].setPosicion(0);
                 System.out.println("Pasas a la casilla " + jugador[turno - 1].getPosicion());
                 cambiarTurno();

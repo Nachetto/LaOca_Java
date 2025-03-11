@@ -1,3 +1,5 @@
+package main;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -11,7 +13,7 @@ public class Tester {
         while (!game.getFinPartida()) {
             if(game.isNuevociclo())
             tb.pintarTablero();
-            System.out.println(game.getJugador(game.getTurno()-1).getNombre()+", te toca: estas en la Casilla "+game.getJugador(game.getTurno()-1).getPosicion());
+            System.out.println(game.getJugador(game.getTurno()-1).getNombre()+", te toca: estas en la main.Casilla "+game.getJugador(game.getTurno()-1).getPosicion());
             game.tirarDado();System.out.println("¿Desea continuar? (s/n)");
             String respuesta = sc.nextLine();
             if (respuesta.equalsIgnoreCase("s")) {

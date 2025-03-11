@@ -1,5 +1,7 @@
+package main;
+
 /**
- * Bici
+ * main.Bici
  */
 public class Bici extends Casilla{
     Bici(String nombre){

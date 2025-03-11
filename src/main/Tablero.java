@@ -1,5 +1,7 @@
+package main;
+
 /**
- * Tablero
+ * main.Tablero
  */
 public class Tablero {
     private Casilla tablero[]= new Casilla[96];
@@ -18,7 +20,7 @@ public class Tablero {
         tablero[46]=new Mercadillo("M");
         tablero[62]=new Mercadillo("M");
         tablero[78]=new Mercadillo("M");
-        tablero[94]=new DrogasNo("D");
+        tablero[94]=new DebesReiniciar("D");
     }
 
     public void pintarTablero(){

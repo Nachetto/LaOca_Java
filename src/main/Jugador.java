@@ -1,3 +1,5 @@
+package main;
+
 public class Jugador extends Casilla {
     private String nombre;
     private int posicion,turno;

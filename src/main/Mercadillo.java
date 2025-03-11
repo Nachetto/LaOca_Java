@@ -1,5 +1,7 @@
+package main;
+
 /**
- * Mercadillo
+ * main.Mercadillo
  */
 public class Mercadillo extends Casilla{
     Mercadillo(String nombre){

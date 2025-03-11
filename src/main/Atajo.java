@@ -1,5 +1,7 @@
+package main;
+
 /**
- * Atajo
+ * main.Atajo
  */
 public class Atajo extends Casilla{
     Atajo(String nombre){

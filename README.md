@@ -18,15 +18,15 @@ Los jugadores participan en el **MaratónQuevedo**, cuyo objetivo es llegar los 
 
 ### 🔥 Tipos de Casillas  
 
-| Casilla       | Efecto |
-|--------------|--------|
-| **CorreCorre** | No ocurre nada, se cambia el turno. *"Corre corre que te pillan."* |
-| **Bici (B)** | El jugador avanza **el doble de casillas** por tirada. *"No hay quien te pare."* |
-| **Mercadillo (M)** | Retrocede **10 casillas** y pierde **1 turno**. *"¿Pero dónde vas?"* |
-| **Atajo (A)** | Salta a la **siguiente casilla de atajo** y vuelve a tirar. *"De atajo en atajo porque eres el más majo."* |
-| **DrogasNo (D)** | Vuelve a la casilla **0**. *"Drogas no."* |
+| main.Casilla       | Efecto                                                                                                     |
+|--------------|------------------------------------------------------------------------------------------------------------|
+| **CorreCorre** | No ocurre nada, se cambia el turno. *"Corre corre que te pillan."*                                         |
+| **main.Bici (B)** | El jugador avanza **el doble de casillas** por tirada. *"No hay quien te pare."*                           |
+| **main.Mercadillo (M)** | Retrocede **10 casillas** y pierde **1 turno**. *"¿Pero dónde vas?"*                                       |
+| **main.Atajo (A)** | Salta a la **siguiente casilla de atajo** y vuelve a tirar. *"De atajo en atajo porque eres el más majo."* |
+| **main.DebesReiniciar (D)** | Vuelve a la casilla **0**. *"Debes reiniciar."*                                                            |
 
-### 📌 Tablero  
+### 📌 main.Tablero  
 
 ```txt
   0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15  
@@ -47,7 +47,7 @@ Los jugadores participan en el **MaratónQuevedo**, cuyo objetivo es llegar los 
  80   81   82   83   84   85   86   87   88   89   90   91   92   93   94   95  
 [ A ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][ D ][ F ]  
 ```
-## 🕹 Ejemplo de Juego  
+## 🕹 Ejemplo de main.Juego  
 
 ```txt
 Jugador1: Fulanito, casilla 56  
@@ -58,7 +58,7 @@ Turno de Fulanito
 s  
 
 Dado: 4  
-Casilla nueva 60  
+main.Casilla nueva 60  
 No hay quien te pare  
 
 Jugador1: Fulanito, casilla 60  
@@ -69,7 +69,7 @@ Turno de Menganito
 s  
 
 Dado: 5  
-Casilla nueva 64  
+main.Casilla nueva 64  
 De atajo en atajo porque eres el más majo  
 
 Jugador1: Fulanito, casilla 60  
@@ -80,8 +80,8 @@ Turno de Menganito
 s  
 
 Dado: 14  
-Casilla nueva 94  
-Drogas no  
+main.Casilla nueva 94  
+Debes Reiniciar  
 
 Jugador1: Fulanito, casilla 60  
 Jugador2: Menganito, casilla 0  
@@ -91,7 +91,7 @@ Turno de Fulanito
 s  
 
 Dado: 10  
-Casilla nueva 80  
+main.Casilla nueva 80  
 De atajo en atajo porque eres el más majo  
 
 🎉 **¡Enhorabuena Fulanito!** 🎉  

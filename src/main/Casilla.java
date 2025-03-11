@@ -1,5 +1,7 @@
+package main;
+
 /**
- * Casilla
+ * main.Casilla
  */
 public abstract class Casilla {
     private String nombre;
